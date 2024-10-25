@@ -1,1 +1,66 @@
-/* Write your CSS here */
+.container {
+  background-color: #ffc2a0;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.inner-container {
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #ff8542;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.input-container{
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  border-width: 2px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.add-button{
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.todos-list {
+  padding-left: 0px;
+}
+
